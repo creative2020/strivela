@@ -1,0 +1,57 @@
+/*
+Name: Air - Magazine Layout
+Description: Displays Featured Image, Post Title and Excerpt in a grid layout.
+
+*/
+
+
+/* Cody's Edits */
+
+
+.loop .magazine-post-wrap {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	max-width: 30%;	
+	margin: 0 2% 5% 0;
+	padding: 0;
+	border: 0;
+	min-height: 150px;
+}
+.loop .magazine-post-wrap .post-image img {
+	width: inherit;
+}
+.loop .magazine-post-wrap:nth-child(n) {
+	width: 31.333333333%;
+	max-width: 31.333333333%;	
+	margin: 0 -4px 5% 3%;	
+}
+.loop .magazine-post-wrap:nth-child(3n + 1) {
+	margin-left: 0;
+}
+.magazine-post .post-image {
+	margin-bottom: 1em;
+}
+
+
+/**************************************
+	Global IE Fixes
+**************************************/
+#ie6 .magazine-post-wrap,
+#ie7 .magazine-post-wrap {
+	display: block;
+	float: left;
+	height: 360px;
+}
+/**************************************
+	IE6 Fixes
+**************************************/
+#ie6 .magazine-post-wrap {
+	width: 31%;
+}
+/**************************************
+	IE7 Fixes
+**************************************/
+#ie7 .magazine-post-wrap {
+	width: 33%;
+}

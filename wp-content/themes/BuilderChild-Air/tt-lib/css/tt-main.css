@@ -1,0 +1,120 @@
+.visit .caption-wrap .caption {
+    color: white;
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+.metaslider .caption-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: transparent !important;
+    color: white;
+    line-height: 30px;
+    opacity: 0.8;
+    margin: 0;
+    display: block;
+    height:2.0em;
+    width: 100%;
+}
+
+/* Video */
+#mep_1 {
+	width:575px;
+	}
+}
+/*RSVP form*/
+.rsvp_wrapper h1{
+    color:#218BC4;
+    text-align: center;
+}
+.rsvp_wrapper h2{
+    color:#125172;
+    text-align: center;
+}
+.rsvp_wrapper .center {
+    text-align: center !important;
+}
+.gfield_html img {
+    text-align: center;
+    margin:1.0em auto;
+}
+.rsvp_wrapper .gift {
+    padding:2.0em !important;
+    background-color: #218BC4;
+}
+
+.rsvp_wrapper .gift .gfield_label{
+    color:white;
+    font-size: 1.5em;
+}
+.rsvp-text .gfield_label{
+    font-size: 2.5em;
+}
+.gform_wrapper ul.gfield_checkbox li input[type=checkbox], .gform_wrapper ul.gfield_radio li input[type=radio] {
+    margin:0 0 0 0.5em;
+    padding:1.0em 0.5em;
+}
+li.hide-gf-label .gfield_label{
+    display: none !important;
+}
+.rsvp_wrapper .gchoice_12_0,
+.rsvp_wrapper .gchoice_12_1{
+    font-size: 1.2em;
+    padding:1.0em 0 0.5em 1.0em !important;
+    background-color: #8FBC8F;
+    color:white;
+}
+.rsvp_wrapper .gchoice_12_1 {
+    background-color: grey;
+    color:white;
+}
+.rsvp_wrapper .gchoice_12_2 {
+    font-size:1.2em;
+    background-color: #218BC4;
+    color:white;
+    width:100% !important;
+}
+.gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio], .gform_wrapper.gf_browser_chrome .gfield_checkbox li input {
+    margin-top:20px !important;
+}
+.gform_wrapper .gfield_checkbox li label, .gform_wrapper .gfield_radio li label {
+    padding:1.0em 0.5em !important;
+}
+.rsvp_wrapper .gchoice_16_0,
+.rsvp_wrapper .gchoice_16_1{
+    font-size: 1.3em;
+    padding:1.0em 0 0.5em 1.0em !important;
+    background-color: #8FBC8F;
+    color:#125172;
+}
+.rsvp_wrapper .gchoice_16_2{
+    font-size: 0.9em;
+}
+.rsvp_wrapper .gchoice_16_0{
+font-size:1.5em;
+    background-color:#fcb040;
+}
+.rsvp_wrapper .gift_amount {
+font-size:1.4em;
+color:white;
+background-color:#218BC4;
+text-align:center;
+}
+.rsvp_wrapper .gift_amount input.ginput_amount {
+background-color:white !important;
+padding:0.5em;
+font-size:1.2em;
+text-align:center;
+}
+.rsvp_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit] {
+font-size: 2.0em !important;
+margin-left:37% !important;
+}
+li.gift_total{
+text-align:center;
+font-size:1.8em;
+}
+li#field_2_15{
+text-align:center;
+}

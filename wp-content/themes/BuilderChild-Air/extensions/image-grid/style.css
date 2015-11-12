@@ -1,0 +1,76 @@
+/*
+Name: Air - Featured Image Grid & Showcase
+Description: Display's Featured Image in a grid layout with colorbox popup.
+
+*/
+
+/**************************************
+	Cody's Edits
+**************************************/
+
+.grid_wrapper {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	max-width: 30%;
+	height: auto !important;
+	margin: 0 2% 0 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Older Versions of IE don't understand nth-child, so using it here to reset margins and widths */
+.grid_wrapper:nth-child(n) { 
+	width: 31.333333333%;
+	max-width: 31.333333333%;
+	margin: 0 -4px 3% 3%;
+}
+.grid_wrapper:nth-child(3n + 1) {
+	margin-left: 0;
+}
+.image-grid-image-wrapper p {
+	padding: 0;
+	margin: 0;
+}
+.image-grid-image-wrapper img {
+	display: block;
+	width: inherit;
+}
+.builder-module-content .grid_wrapper > *:last-child {
+	margin: 0;
+}
+.grid_wrapper .permalink {
+	padding: .5em 1em;
+	background: #3B3F42;
+	display: block;
+	line-height: 1.2;
+	max-width: 100%;
+	color: #FFFFFF;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+	border-top: 1px solid #EBEBEB;
+}
+.grid_wrapper .permalink:hover {
+	opacity: 1;
+}
+.grid_wrapper .slide_box {
+	padding: 0;
+	margin: 0;
+}
+
+/**************************************
+	Global IE Fixes
+**************************************/
+#ie6 .grid_wrapper,
+#ie7 .grid_wrapper  {
+	float: left;
+	clear: none;
+	margin-bottom: 5%;
+}
+
+#ie6 .grid_wrapper .permalink,
+#ie7 .grid_wrapper .permalink  {
+	width: 85%;
+	max-width: 85%;
+}

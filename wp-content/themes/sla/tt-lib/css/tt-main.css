@@ -1,0 +1,28 @@
+.visit .caption-wrap .caption {
+    color:white;
+    background-color:transparent;
+    padding-top:5.0em;
+    font-size:1.2em;
+}
+
+.metaslider .caption-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: transparent !important;
+    color: white;
+    line-height: 30px;
+    opacity: 0.8;
+    margin: 0;
+    display: block;
+    height:2.0em;
+    width: 100%;
+}
+.rsvp_wrapper {
+}
+.rsvp-text .gfield_label{
+    text-align: center;
+    font-size: 3.0em;
+    color:red !important;
+}
+    

@@ -1,0 +1,20 @@
+/*
+Name: Air - Teasers Layout - Image Left
+Description: Displays Featured Image (floating left), Post Title, Post Meta & Excerpt in as teasers.
+
+*/
+
+.teasers-left-wrapper .featured-image-wrapper {
+	width: 30%;
+	max-width: 30%;
+	float: left;
+}
+.teasers-left-wrapper .featured-image-wrapper img {
+	width: inherit;
+}
+.teasers-left-wrapper .teaser-content-wrapper {
+	width: 60%;
+	max-width: 60%;
+	float: left;
+	margin-left: 5%;
+}

@@ -1,0 +1,57 @@
+/*
+Name: Air - Portfolio Layout
+Description: Display's Featured Image and Post Title in a grid layout.
+
+*/
+
+.builder-module-content .portfolio-post-wrap {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	max-width: 30%;
+	margin: 0 2% 0 0;
+	padding: 0;
+	border: 0;
+}
+.builder-module-content .portfolio-post-wrap:nth-child(n) {
+	width: 31.333333333%;
+	max-width: 31.333333333%;
+	margin: 0 -4px 3% 3%;
+}
+.builder-module-content .portfolio-post-wrap:nth-child(3n + 1) {
+	margin-left: 0;
+}
+.portfolio-post .entry-image img {
+	width: inherit;
+}
+.portfolio-post .portfolio-title {
+	display: block;
+	font-size: 1.5em;
+	line-height: 1.2;
+}
+.portfolio-post .portfolio-title a {
+	text-decoration: none;
+}
+
+
+/**************************************
+	Global IE Fixes
+**************************************/
+#ie6 .portfolio-post-wrap,
+#ie7 .portfolio-post-wrap {
+	display: block;
+	float: left;
+	height: 160px;
+}
+/**************************************
+	IE6 Fixes
+**************************************/
+#ie6 .portfolio-post-wrap {
+	width: 31%;
+}
+/**************************************
+	IE7 Fixes
+*************************************/
+#ie7 .portfolio-post-wrap {
+	width: 33%;
+}

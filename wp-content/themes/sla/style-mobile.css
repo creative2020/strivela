@@ -1,0 +1,173 @@
+.builder-module-element {
+	margin-bottom: 2em;
+}
+
+/*********************************************
+	Footer Module
+*********************************************/
+
+.builder-module-footer .builder-module-element .alignleft,
+.builder-module-footer .builder-module-element .alignright {
+	float: none;
+	margin: 0 0 1.5em 0;
+	text-align: left;
+}
+.builder-module-content .builder-module-element .alignleft,
+.builder-module-content .builder-module-element .alignright {
+	float: none;
+	margin: 0;
+	text-align: left;
+}
+
+
+/*********************************************
+	Navigation Module (Mobile)
+*********************************************/
+
+.builder-module-navigation.mobile {
+	padding-top: .5em !important;
+}
+.builder-module-navigation.mobile ul {
+	margin-top: .5em;
+}
+.builder-module-navigation.mobile li {
+	/* Cody's Mods */
+	width: 100%;
+	position: relative;
+}
+/* second level stuff */
+.builder-module-navigation.mobile li ul {
+	/* Cody's Mods */	
+	position: relative !important;
+	left: 0 !important;
+	border: 0;
+	width: 100%;
+	margin: 0;
+}
+.builder-module-navigation.mobile li a,
+.builder-module-navigation.mobile .current_page_item li a,
+.builder-module-navigation.mobile .current-cat li a,
+.builder-module-navigation.mobile .current-menu-item li a {
+	/* Cody's Mods */
+	margin: 0;
+	background: transparent;
+	border-color: transparent;
+	color: #3B3F42;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.builder-module-navigation.mobile li a:hover,
+.builder-module-navigation.mobile .current_page_item li a:hover,
+.builder-module-navigation.mobile .current-cat li a li a:hover,
+.builder-module-navigation.mobile .current-menu-item li a:hover {
+	background: #3B3F42;
+	color: #ECECEC;
+}
+.builder-module-navigation.mobile li li {
+	/* Cody's Mods */
+	border: 0;
+	width: 100%;
+}
+.builder-module-navigation.mobile li ul ul {
+	/* Cody's Mods */	
+	margin: 0;
+}
+/* Cody's Mods */
+.builder-module-navigation.mobile li li a {
+	padding: .25em 0 .25em 2em;
+	line-height: inherit;
+	border-radius: 2px;
+}
+.builder-module-navigation.mobile li li li a {
+	padding-left: 4em;
+}
+.builder-module-navigation.mobile-nav .menu.hidden {
+	display: none;
+}
+#it-mobile-menu {
+	background: #3B3F42;
+	color: #ECECEC;
+	padding: .25em .75em;	
+	display: block;
+	cursor: pointer;
+	border-radius: 2px;
+	-webkit-font-smoothing: antialiased;	
+}
+.builder-module-navigation.mobile.borderless {
+	border: 0;
+}
+
+
+
+
+
+/* Teasers Extension (Left and Right) */
+
+.loop .entry-content.teasers .teasers-featured-image {
+	width: 100%;
+	max-width: 100%;
+}
+.loop .entry-content.teasers .entry-title {
+	margin-right: 0;
+	margin-left: 0;
+}
+.loop .teasers-left-content-wrapper {
+	margin-left: 0;
+}
+.loop .teasers-right-content-wrapper {
+	margin-right: 0;
+}
+
+
+/* Portfolio Layout */
+.builder-module-content .loop .portfolio-post-wrap {
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Magazine Layout */
+.builder-module-content .loop .magazine-post-wrap {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 2em 0;
+	padding: 0;
+}
+
+
+
+/* Image Grid Layout */
+.loop .grid_wrapper {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 1em 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+
+
+
+/* Comments */
+
+.commentlist li.comment,
+.commentlist li.trackback, 
+.commentlist li.pingback {
+	padding-right: 0;
+	padding-left: .75em;
+}
+.commentlist .comment-body {
+	margin-right: .5em;
+}
+
+.commentlist .children li.comment,
+.commentlist .children  li.trackback, 
+.commentlist .children  li.pingback {
+	border-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;	
+	padding-right: 0;
+}
